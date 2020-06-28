@@ -15,7 +15,7 @@
   <div class="container">
   <div class="row">
     <div class="col-md-8 ftco-animate">
-      <em>Published {{$post['created_at']->toDayDatetimeString()}}<a target="_blank"> by <b>{{$post->user->name}} </b> </a></em>
+      <em>Published {{$post['created_at']->toFormattedDateString()}}<a target="_blank"> by <b>{{$post->user->name}} </b> </a></em>
       <h1 class="mb-3">{{$post->post_title}}</h1>
       <p>
         <img src="/storage/cover_images/{{$post->cover_image}}" style ="width:100%" alt="" class="img-fluid">
