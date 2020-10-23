@@ -5,9 +5,9 @@
                 <div class="row">
                     <div class="col-md-4 mb-md-0 mb-4">
                         <ul class="ftco-footer-social p-0">
-                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="fa fa-twitter"></span></a></li>
-                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="fa fa-facebook"></span></a></li>
-                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="fa fa-instagram"></span></a></li>
+                        <li class="ftco-animate"><a href="http://www.twitter.com" data-toggle="tooltip" target="_blank" data-placement="top" title="Twitter"><span class="fa fa-twitter"></span></a></li>
+                        <li class="ftco-animate"><a href="http://www.facebook.com" data-toggle="tooltip" target="_blank" data-placement="top" title="Facebook"><span class="fa fa-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="http://www.instagram.com" data-toggle="tooltip" target="_blank" data-placement="top" title="Instagram"><span class="fa fa-instagram"></span></a></li>
                         </ul>
                     </div>
                 </div>

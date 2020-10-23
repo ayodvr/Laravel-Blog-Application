@@ -20,7 +20,7 @@
                         {{Form::file('cover_image')}}
                 </div>
                 <div class="form-group" style="width:90%; margin:auto; padding-top:5px">
-                   {{Form::submit('Submit', ['class' =>'btn btn-primary'])}}
+                   {{Form::submit('Post', ['class' =>'btn btn-primary'])}}
                 </div>
         {!! Form::close() !!}
 </div>

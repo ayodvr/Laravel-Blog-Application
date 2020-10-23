@@ -13,9 +13,15 @@
         "axios": "^0.19",
         "bootstrap": "^4.0.0",
         "cross-env": "^7.0",
+<<<<<<< HEAD
         "jquery": "^3.5.1",
         "laravel-mix": "^5.0.7",
         "lodash": "^4.17.20",
+=======
+        "jquery": "^3.5",
+        "laravel-mix": "^5.0.4",
+        "lodash": "^4.17.19",
+>>>>>>> 74e81221a3b3c9ea8396f110f20e524e974971ba
         "popper.js": "^1.12",
         "resolve-url-loader": "^3.1.2",
         "sass": "^1.20.1",
