@@ -65,11 +65,21 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
+<<<<<<< HEAD
             'host' => 'db4free.net',
             'port' => '3306',
             'database' => devblog_db,
             'username' => ayo_dvr,
             'password' =>oshoffa1947,
+=======
+            'url' => env('DATABASE_URL'),
+            'host' => env('DB_HOST', '127.0.0.1'),
+            'port' => env('DB_PORT', '3306'),
+            'database' => env('DB_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME', 'forge'),
+            'password' => env('DB_PASSWORD', ''),
+            'unix_socket' => env('DB_SOCKET', ''),
+>>>>>>> 3fee6f178038dc695a7e057c3a494caba95b2cb4
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
