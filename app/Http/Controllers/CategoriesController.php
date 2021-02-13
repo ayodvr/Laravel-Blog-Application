@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Category;
 use App\Post;
+use Illuminate\Support\Facades\Auth;
+
 class CategoriesController extends Controller
 {
     /**
@@ -24,7 +26,14 @@ class CategoriesController extends Controller
      */
     public function create()
     {
-        return view("categories.create");
+        if(!Auth::guest()){
+
+            return view("categories.create");
+        }else{
+
+            return redirect()->route('login');
+        }
+        
     }
 
     /**

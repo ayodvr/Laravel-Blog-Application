@@ -4,7 +4,11 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card"  style="margin-top:10px">
-                <div><a href="posts/create" class ="btn btn-primary pull-right">Create Post</a></div>
+                <div>
+                    <a href="posts/create" class ="btn btn-primary">Create Post</a>
+                    <a href="categories/create" class ="btn btn-info pull-right">Create Category</a>
+                </div>
+                <div></div>
                 <div class="card-header">Dashboard</div>
 
                 <div class="card-body">

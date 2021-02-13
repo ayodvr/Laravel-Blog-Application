@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-        <h1>Create Category</h1>
+        <h1 class="text-center">Create Category</h1>
 
         {!! Form::open(['route' => 'categories.store', 'method' => 'POST']) !!}
                 <div class="form-group" style="width:90%; margin:auto">

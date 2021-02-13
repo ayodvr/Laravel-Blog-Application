@@ -34,6 +34,7 @@
 
     <link rel="stylesheet" href="{{asset('css/flaticon.css')}}">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel='shortcut icon' type='image/x-icon' href='{{asset('images/favicon.ico')}}' />
     <style>
         .blogShort{ border-bottom:1px solid #ddd;}
     .add{background: #333; padding: 10%; height: 300px;}
