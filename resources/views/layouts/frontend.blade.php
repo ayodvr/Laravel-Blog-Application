@@ -93,6 +93,8 @@
             @yield('content')
             @include('includes.footer')
         </main>
+
+        <!-- loader -->
     <script src="{{asset('js/jquery.min.js')}}"></script>
   <script src="{{asset('js/jquery-migrate-3.0.1.min.js')}}"></script>
   <script src="{{asset('js/popper.min.js')}}"></script>

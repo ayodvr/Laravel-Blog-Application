@@ -34,7 +34,7 @@
 						  <div class="meta mb-2">
 						  <div><a>{{$blog->created_at->toFormattedDateString()}}</a></div>
 						  <div><a>by {{$blog->user->name}}</a></div>
-						  <div><a class="meta-chat"><span class="fa fa-comment"></span></a></div>
+						  {{-- <div><a class="meta-chat"><span class="fa fa-comment"></span></a></div> --}}
 						</div>
 						<h1 class="heading"><a href="/posts/{{$blog->id}}">{{$blog->post_title}}</a></h1>
 					  </div>
