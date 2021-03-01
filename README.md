@@ -1,6 +1,8 @@
 This is a basic Laravel blog application provided with the basic functionalities of a blog.
 You have the flexibility of registering and posting as an authenticated user.
 
+https://devblog.ayodejiadekunle.com.ng
+
 To set up this beauty on your device, you need to follow these steps.
 
 
